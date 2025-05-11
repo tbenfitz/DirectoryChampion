@@ -1,0 +1,125 @@
+﻿.highlighted {
+    background-color: yellow;
+}
+
+.validtarget {
+    background-color: lightblue;
+}
+
+.dragHover {
+    background-color: lightblue;
+}
+
+.dragActive {
+    border-style: dashed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.border-right {
+    border-right: 1px solid #000000;
+}
+
+.padding-sm-left {
+    padding-left: 5px;
+}
+
+.icon-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.directories li {
+    display: block;
+}
+
+.directories li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e117";
+    font-family: 'Glyphicons Halflings';
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+
+.files li {
+    display: block;
+}
+
+.files li > button > span:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e117";
+    font-family: 'Glyphicons Halflings';
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+
+.upALevel {
+    font-size:0.9em;
+}
+
+.upALevel:before {
+    content: "\e133";
+    font-family: 'Glyphicons Halflings';
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+
+.download:before {
+    content: "\e025;";
+    font-family: 'Glyphicons Halflings';
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 0px;
+    color: #CCCCCC;
+}
+
+span.download:hover:before {
+    color: #0000FF;
+}
+
+.delete:after {
+    content: "\e020";
+    font-family: 'Glyphicons Halflings';
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 0px;
+    color: #CCCCCC;
+}
+
+.icon-button > span.delete:hover:before {    
+    color: #FF0000;
+}
+
+.expandable::before {
+    content: "+";
+    color: #0000FF;
+}
+
+.collapsable::before {
+    content: "-";
+}
+
+.selected {
+    background-color: #0000FF;
+}
+
+.mouse-over {    
+    background-color: #000088;
+}
